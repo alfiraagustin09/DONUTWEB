@@ -25,7 +25,7 @@
 }
 
 .main-color{
-  background-color: rgb(96, 49, 96);
+  background-color: #6f537d;
 }
 
 .icon-service{
@@ -62,7 +62,7 @@
   height: 250px;
   object-fit: cover;
 }
-/* Styling Section Review */
+
 .testimony {
     background-color: rgb(83, 46, 83) !important;
 }
@@ -146,3 +146,9 @@
 .footer-main a:hover {
     color: #FFC107 !important;
 }
+
+.card a[data-lightbox] {
+    display: block;
+    overflow: hidden; 
+    background-color: #000; 
+    }
